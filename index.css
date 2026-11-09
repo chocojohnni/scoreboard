@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url("/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #0C4A6E;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Score container and team name styling */
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-container {
+    background: black;
+    width: 100px;
+    height: 70px;
+    border-radius: 4px;
+    margin-top: -40px;
+}
+
+.home-score, .guest-score {
+    color: #E11D48;
+    font-family: "CursedTimer", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    font-size: 3rem;
+}
+
+/* Point container and button styling */
+.points-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.point-btn {
+    padding: 5px;
+    background: none;
+    border: 2px solid #9CA3AF;
+    border-radius: 5px;
+    font-family: "CursedTimer", monospace;
+    color: #D1D5DB;
+    margin: 0 2px;
+}
+
+.point-btn:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: all 0.3s ease;
+}
+
+.new-game-btn {
+    padding: 5px;
+    background: none;
+    border: 2px solid #9CA3AF;
+    border-radius: 5px;
+    font-family: "CursedTimer", monospace;
+    color: #D1D5DB;
+    margin: 10px 2px;
+}
+
+.new-game-btn:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: all 0.3s ease;
+}
